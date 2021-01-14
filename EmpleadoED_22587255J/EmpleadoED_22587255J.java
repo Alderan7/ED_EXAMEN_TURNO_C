@@ -46,10 +46,14 @@ public class EmpleadoED_22587255J {
 	 return salarioFinal;
  }
 
- 
- // Este método no lo comentaremos con JavaDoc
+ /**
+  * Este programa devuelve los datos del empleado y el cálculo del salario que le corresponde al haber realizado
+  * un número concreto de horas extras  * 
+  * 
+  */
+
  public static void main(String[] args) {
-	 // !!!! MODIFICA TU NOMBRE Y TU DNI EN LA SIGUIENTE LÍNEA
+
 	 EmpleadoED_22587255J emp = new EmpleadoED_22587255J("ANDRÉS GALLARDO","22487255J");
 	 int horasExtra = 2;
 	 System.out.println("El salario de " + emp.nombreCompleto + " este mes será de " + emp.getSalarioEsteMes(horasExtra)
